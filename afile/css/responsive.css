@@ -1,0 +1,70 @@
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .carousel-control-prev, .carousel-control-next{
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px){
+    .smallscreen{
+      display: none;
+    }
+    form{
+      display: block;
+      width: 70%;
+      margin: 0 auto;
+    }
+    form input{
+        font-size: 14px!important;
+    }
+
+    .section-1 .row .col-md-6 .panel{
+      position: initial;
+      width: initial;
+      height: initial;
+    }
+    .section-2 .row .col-md-6 .panel{
+      position: initial;
+      width: initial;
+      height: initial;
+    }
+
+    .section-3 .cover{
+      background-position: -25vmin -10vmin;
+    }
+    .covers .contents .container{
+      background-position: -25vmin -10vmin;
+    }
+    .numbers.rect{
+      width: 10rem;
+      height: 8rem;
+    }
+    .numbers.rect i{
+      font-size: 2rem;
+    }
+    .section-4 .row .col-md-12{
+      text-align: center!important;
+
+
+    }
+
+}
+@media only screen and (max-width: 900px){
+  .carousel-inner{
+    height: auto!important;
+  }
+  form{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+}
+@media only screen and (max-width: 425px){
+  footer .row .col-md-2{
+    margin-top: 8vmin;
+  }
+ 
+}
+@media only screen and (max-width: 320px){
+
+
+}
